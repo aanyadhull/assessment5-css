@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(242, 242, 103);
+ 
+}
+h1{
+    text-align: center;
+}
+div{
+    display: flex;
+
+    justify-content: center;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background: rgb(101, 220, 101);
+    transition: width 2s;
+     transition-timing-function: linear; 
+  }
+  .box:hover {
+    width: 300px;
+  }
+  .element{
+    width: 100px;
+    height: 100px;
+    background: rgb(101, 220, 101);
+    transition:height width 2s;
+    margin-top: 10px;
+    transition-timing-function: linear;
+  }
+  .element:hover {
+    width: 300px;
+    height: 300px;
+  }
+  .element1 {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    background: rgb(101, 220, 101);
+    transition: width 2s;
+    transition-timing-function: linear;
+  }
+  .element1:hover {
+    width: 300px;
+  }
+  .element2 {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    background: rgb(101, 220, 101);
+    transition: width 2s;
+    transition-timing-function: ease;
+  }
+  .element2:hover {
+    width: 300px;
+  }
+  .element3 {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    background: rgb(101, 220, 101);
+    transition: width 2s;
+    transition-timing-function: ease-in;
+  }
+  .element3:hover {
+    width: 300px;
+  }
+  .element4 {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    background: rgb(101, 220, 101);
+    transition: width 2s;
+    transition-timing-function: ease-out;
+  }
+  .element4:hover {
+    width: 300px;
+  }
+  .element5 {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    background: rgb(101, 220, 101);
+    transition: width 2s;
+    transition-timing-function: ease-in-out;
+  }
+  .element5:hover {
+    width: 300px;
+  }
+  
